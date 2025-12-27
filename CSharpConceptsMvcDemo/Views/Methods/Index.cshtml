@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Methods";
+}
+
+<h2 class="mb-3">Methods Demo</h2>
+
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Function Example:</strong> @ViewBag.FunctionResult</li>
+    <li class="list-group-item"><strong>Method Example:</strong> @ViewBag.MethodResult</li>
+    <li class="list-group-item"><strong>Parameter-less Method:</strong> @ViewBag.ParameterLessMessage</li>
+    <li class="list-group-item"><strong>Parameterized (Instance Add 7+5):</strong> @ViewBag.InstanceAdd</li>
+    <li class="list-group-item"><strong>Parameterized (Static Multiply 4*6):</strong> @ViewBag.StaticMultiply</li>
+    <li class="list-group-item"><strong>Void Method Output:</strong> @ViewBag.VoidOutput</li>
+    <li class="list-group-item"><strong>Non-Void Method Output:</strong> @ViewBag.NonVoidOutput</li>
+    <li class="list-group-item"><strong>Instance Method Call:</strong> @ViewBag.InstanceCall</li>
+    <li class="list-group-item"><strong>Static Method Call:</strong> @ViewBag.StaticCall</li>
+</ul>
+
+<p class="text-muted">Note: In C#, “functions” are generally static methods; “methods” can be instance or static.</p>

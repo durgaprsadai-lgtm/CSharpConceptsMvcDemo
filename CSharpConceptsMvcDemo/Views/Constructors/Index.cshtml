@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Constructors";
+}
+
+<h2 class="mb-3">Constructors Demo</h2>
+
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Base Constructor Person1:</strong> @ViewBag.Person1</li>
+    <li class="list-group-item"><strong>Base Constructor Person2:</strong> @ViewBag.Person2</li>
+    <li class="list-group-item"><strong>Default Constructor Car:</strong> @ViewBag.CarDefault</li>
+    <li class="list-group-item"><strong>Parameterized Student1:</strong> @ViewBag.Student1</li>
+    <li class="list-group-item"><strong>Parameterized Student2:</strong> @ViewBag.Student2</li>
+    <li class="list-group-item"><strong>Copy Constructor Original:</strong> @ViewBag.BookOriginal</li>
+    <li class="list-group-item"><strong>Copy Constructor Copy:</strong> @ViewBag.BookCopy</li>
+    <li class="list-group-item"><strong>Private Constructor Singleton same instance?:</strong> @ViewBag.SameLoggerInstance</li>
+    <li class="list-group-item"><strong>Static Constructor Config:</strong> @ViewBag.StaticConfig</li>
+    <li class="list-group-item"><strong>Constructor Overload 1 (default):</strong> @ViewBag.Overload1</li>
+    <li class="list-group-item"><strong>Constructor Overload 2 (name):</strong> @ViewBag.Overload2</li>
+    <li class="list-group-item"><strong>Constructor Overload 3 (name+age):</strong> @ViewBag.Overload3</li>
+    <li class="list-group-item"><strong>Constructor Chaining:</strong> @ViewBag.DogConstructed</li>
+</ul>
+
+<p class="text-muted">Destructor (finalizer) runs non-deterministically; shown for concept only.</p>
